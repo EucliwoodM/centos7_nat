@@ -1,0 +1,1150 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"y",
+				"yColor-tools"
+			],
+			[
+				"run",
+				"runFULE〔function〕"
+			],
+			[
+				"eng",
+				"engine"
+			],
+			[
+				"se",
+				"self"
+			],
+			[
+				"max",
+				"maxcelsius"
+			],
+			[
+				"ma",
+				"maxcelsius"
+			],
+			[
+				"t",
+				"torque"
+			],
+			[
+				"f",
+				"ferrari"
+			],
+			[
+				"st",
+				"start〔function〕"
+			],
+			[
+				"po",
+				"power〔variable〕"
+			],
+			[
+				"co",
+				"copyfile〔function〕"
+			],
+			[
+				"sca",
+				"scanDir〔variable〕"
+			],
+			[
+				"des",
+				"destDir〔variable〕"
+			],
+			[
+				"lang",
+				"lang_list"
+			],
+			[
+				"int",
+				"int"
+			],
+			[
+				"lam",
+				"lampa〔variable〕"
+			],
+			[
+				"wor",
+				"word〔variable〕"
+			],
+			[
+				"o",
+				"options"
+			],
+			[
+				"op",
+				"option〔variable〕"
+			],
+			[
+				"in",
+				"input_str"
+			],
+			[
+				"cla",
+				"clean〔module〕"
+			],
+			[
+				"word",
+				"words_dict〔variable〕"
+			],
+			[
+				"w",
+				"words"
+			],
+			[
+				"rai",
+				"raises"
+			],
+			[
+				"m",
+				"max_int"
+			],
+			[
+				"so",
+				"sorted_number_list〔variable〕"
+			],
+			[
+				"min",
+				"min_int〔variable〕"
+			],
+			[
+				"sl",
+				"slum〔module〕"
+			],
+			[
+				"ra",
+				"randrange〔function〕"
+			],
+			[
+				"tr",
+				"try_int〔function〕"
+			],
+			[
+				"ex",
+				"except〔keyword〕"
+			],
+			[
+				"u",
+				"uname"
+			],
+			[
+				"lis",
+				"list_grupps〔function〕"
+			],
+			[
+				"ge",
+				"getpwnam"
+			],
+			[
+				"get",
+				"getpwnam"
+			],
+			[
+				"user",
+				"userid"
+			],
+			[
+				"gr",
+				"groups"
+			],
+			[
+				"game",
+				"game_board"
+			],
+			[
+				"sc",
+				"screen"
+			],
+			[
+				"pl",
+				"player"
+			],
+			[
+				"pla",
+				"player〔variable〕"
+			],
+			[
+				"play",
+				"player〔variable〕"
+			],
+			[
+				"for",
+				"for	For Loop"
+			],
+			[
+				"a",
+				"address"
+			],
+			[
+				"up",
+				"update_players_info〔function〕"
+			],
+			[
+				"col",
+				"col_num〔variable〕"
+			],
+			[
+				"gae",
+				"game_bord_box〔variable〕"
+			],
+			[
+				"try",
+				"try	Try/Except"
+			],
+			[
+				"str",
+				"string〔variable〕"
+			],
+			[
+				"re",
+				"return〔keyword〕"
+			],
+			[
+				"A",
+				"ACS_ULCORNER"
+			],
+			[
+				"bo",
+				"bord"
+			],
+			[
+				"row",
+				"row_num〔variable〕"
+			],
+			[
+				"ro",
+				"row〔variable〕"
+			],
+			[
+				"di",
+				"display_board〔variable〕"
+			],
+			[
+				"display",
+				"display_board"
+			],
+			[
+				"dis",
+				"display_board"
+			],
+			[
+				"ga",
+				"game_info〔variable〕"
+			],
+			[
+				"cur",
+				"current_player"
+			],
+			[
+				"start",
+				"start_game〔variable〕"
+			],
+			[
+				"cu",
+				"current_player"
+			],
+			[
+				"me",
+				"menu〔function〕"
+			],
+			[
+				"star",
+				"start_game〔variable〕"
+			],
+			[
+				"player",
+				"players_info"
+			],
+			[
+				"p",
+				"players_info"
+			],
+			[
+				"n",
+				"newBoard"
+			],
+			[
+				"J",
+				"JXXXXXXXXXXXXX"
+			],
+			[
+				"lo",
+				"loads〔function〕"
+			],
+			[
+				"playe",
+				"players"
+			],
+			[
+				"cl",
+				"clear"
+			],
+			[
+				"men",
+				"menu〔variable〕"
+			],
+			[
+				"ser",
+				"server_ip〔variable〕"
+			],
+			[
+				"list",
+				"listen"
+			],
+			[
+				"s",
+				"self"
+			],
+			[
+				"d",
+				"Display〔class〕"
+			],
+			[
+				"c",
+				"curses"
+			],
+			[
+				"cli",
+				"clinet"
+			],
+			[
+				"g",
+				"getch"
+			],
+			[
+				"box",
+				"box4〔variable〕"
+			],
+			[
+				"new",
+				"newwin〔function〕"
+			],
+			[
+				"ad",
+				"addstr"
+			],
+			[
+				"clea",
+				"clean_new_row"
+			],
+			[
+				"cle",
+				"cleand_new_row"
+			],
+			[
+				"clean",
+				"clean_char"
+			],
+			[
+				"li",
+				"line_number"
+			],
+			[
+				"rad",
+				"readline〔function〕"
+			],
+			[
+				"f_l",
+				"f_lines"
+			],
+			[
+				"split",
+				"split('\\n"
+			],
+			[
+				"read",
+				"readline"
+			],
+			[
+				"file",
+				"file_name〔variable〕"
+			],
+			[
+				"nu",
+				"number_of_words"
+			],
+			[
+				"E",
+				"Exception〔class〕"
+			],
+			[
+				"words",
+				"wordsCount"
+			],
+			[
+				"wo",
+				"wordsCount"
+			],
+			[
+				"retunr",
+				"return"
+			],
+			[
+				"dic",
+				"dict〔class〕"
+			],
+			[
+				"i",
+				"items"
+			],
+			[
+				"leter",
+				"letter"
+			],
+			[
+				"e",
+				"exceptionts"
+			],
+			[
+				"score",
+				"score〔variable〕"
+			],
+			[
+				"my",
+				"my_modules"
+			],
+			[
+				"va",
+				"value〔argument〕"
+			],
+			[
+				"G",
+				"gameRun〔variable〕"
+			],
+			[
+				"ne",
+				"newBoard〔variable〕"
+			],
+			[
+				"server",
+				"server_port〔variable〕"
+			],
+			[
+				"if",
+				"if	If Condition"
+			],
+			[
+				"sen",
+				"sendall"
+			],
+			[
+				"am",
+				"amount_received〔variable〕"
+			],
+			[
+				"soc",
+				"sock〔variable〕"
+			],
+			[
+				"tex",
+				"text_input〔variable〕"
+			],
+			[
+				"__",
+				"__init__"
+			],
+			[
+				"T",
+				"Thread"
+			],
+			[
+				"r",
+				"running〔variable〕"
+			],
+			[
+				"sel",
+				"self〔argument〕"
+			],
+			[
+				"SOCK_S",
+				"SOCK_STREAM〔variable〕"
+			],
+			[
+				"SOC",
+				"SOCK_STREAM〔variable〕"
+			],
+			[
+				"__in",
+				"__init__〔function〕"
+			],
+			[
+				"er",
+				"error〔variable〕"
+			],
+			[
+				"geth",
+				"gethostbyname〔function〕"
+			],
+			[
+				"getho",
+				"gethostname〔function〕"
+			],
+			[
+				"b",
+				"board"
+			],
+			[
+				"pa",
+				"playersInfo〔variable〕"
+			],
+			[
+				"num",
+				"numOfPlayers〔variable〕"
+			],
+			[
+				"set",
+				"setGameMod"
+			],
+			[
+				"board",
+				"boardClass〔variable〕"
+			],
+			[
+				"with",
+				"width"
+			],
+			[
+				"displ",
+				"display〔variable〕"
+			],
+			[
+				"displayBoard",
+				"displayBoardR"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "nat.sh",
+			"settings":
+			{
+				"buffer_size": 8320,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "README.md",
+			"settings":
+			{
+				"buffer_size": 14,
+				"line_ending": "Unix"
+			}
+		}
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 368.0,
+		"last_filter": "project",
+		"selected_items":
+		[
+			[
+				"project",
+				"Project: Close"
+			],
+			[
+				"remote",
+				"Git: Track Remote Branch"
+			],
+			[
+				"git pu",
+				"Git: Push"
+			],
+			[
+				"com",
+				"Git: Commit"
+			],
+			[
+				"add",
+				"Git: Add All"
+			],
+			[
+				"ins",
+				"Package Control: Install Package"
+			],
+			[
+				"remo",
+				"Package Control: Remove Package"
+			],
+			[
+				"install",
+				"Package Control: Install Package"
+			],
+			[
+				"install ",
+				"Package Control: Install Package"
+			],
+			[
+				"list",
+				"Package Control: List Packages"
+			],
+			[
+				"insta",
+				"Package Control: Install Package"
+			],
+			[
+				"co",
+				"Git: Commit"
+			],
+			[
+				"a",
+				"Git: Add All"
+			],
+			[
+				"git ",
+				"Git: Commit"
+			],
+			[
+				"git add",
+				"Git: Add All"
+			],
+			[
+				"git",
+				"Git: Status"
+			],
+			[
+				"init",
+				"Git: Init"
+			],
+			[
+				"comm",
+				"Git: Commit"
+			],
+			[
+				"git: a",
+				"Git: Add All"
+			],
+			[
+				"ad",
+				"Git: Add All"
+			],
+			[
+				"git:D",
+				"Git: Diff All Files"
+			],
+			[
+				"git:",
+				"Git: Status"
+			],
+			[
+				"git:a",
+				"Git: Add All"
+			],
+			[
+				"to",
+				"TodoReview: Project and Open Files"
+			],
+			[
+				"in",
+				"Package Control: Install Package"
+			],
+			[
+				"user",
+				"Preferences: Settings - User"
+			],
+			[
+				"close",
+				"File: Close All"
+			],
+			[
+				"inst",
+				"Package Control: Install Package"
+			],
+			[
+				"re",
+				"Package Control: Remove Package"
+			],
+			[
+				"remove",
+				"Package Control: Remove Package"
+			],
+			[
+				"file",
+				"File: New Folder Relative to Project Root"
+			],
+			[
+				"Package Control: re",
+				"Package Control: Remove Package"
+			],
+			[
+				"Package Control: in",
+				"Package Control: Install Package"
+			]
+		],
+		"width": 435.0
+	},
+	"console":
+	{
+		"height": 302.0,
+		"history":
+		[
+			"git add *",
+			"cd /",
+			"import urllib.request,os,hashlib; h = '2915d1851351e5ee549c20394736b442' + '8bc59f460fa1548d1514676163dafc88'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://packagecontrol.io/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by) "
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/home/yoieh/sftp-config.json",
+		"/home/yoieh/python/laboration6/engine.py",
+		"/home/yoieh/python/laboration6/laboration6-2.py",
+		"/home/yoieh/python/laboration6/6-2.data",
+		"/home/yoieh/python/laboration6/laboration6-1.py",
+		"/home/yoieh/python/laboration4/aohf.txt",
+		"/home/yoieh/python/laboration5/laboration5-1.py",
+		"/home/yoieh/python/laboration5/laboration5-2.py",
+		"/home/yoieh/python/tic-tac-toe.V2.0/main.py",
+		"/home/yoieh/python/tentan/uppg4-old.py",
+		"/home/yoieh/python/laboration4/laboration4-2.py",
+		"/home/yoieh/python/laboration4/laboration4-1.py",
+		"/home/yoieh/python/tentan/uppg4.py",
+		"/home/yoieh/python/tentan/bordslampa.py",
+		"/home/yoieh/python/tentan/uppg5.py",
+		"/home/yoieh/python/laboration4/clean.py",
+		"/home/yoieh/python/tentan/source/glosor.txt",
+		"/home/yoieh/python/tentan/slump.py",
+		"/home/yoieh/python/tentan/uppg3b.py",
+		"/home/yoieh/python/tentan/uppg3a.py",
+		"/home/yoieh/python/tic-tac-toe/game.py",
+		"/home/yoieh/python/tentan/uppg1.py",
+		"/home/yoieh/python/tentan/uppg2.py",
+		"/home/yoieh/python/tentan/uppgift-1.py",
+		"/home/yoieh/python/laboration2/laboration2-1.py",
+		"/home/yoieh/python/laboration2/laboration2-2.py",
+		"/home/yoieh/python/laboration3/laboration3-1.py",
+		"/home/yoieh/.config/sublime-text-3/Packages/User/Preferences.sublime-settings",
+		"/home/yoieh/.config/sublime-text-3/Packages/Default/Default (Linux).sublime-keymap",
+		"/home/yoieh/.config/sublime-text-3/Packages/Default/Preferences.sublime-settings",
+		"/home/yoieh/python/tic-tac-toe.V2.0/game.py",
+		"/home/yoieh/python/tic-tac-toe.V2.0/display.py",
+		"/home/yoieh/python/tic-tac-toe.V2.0/server_handler.py",
+		"/home/yoieh/python/tic-tac-toe.V2.0/cli.py",
+		"/home/yoieh/.config/sublime-text-3/Packages/User/pep8_autoformat.sublime-settings",
+		"/home/yoieh/python/tic-tac-toe.V2.0/help.py",
+		"/home/yoieh/python/tic-tac-toe.V2.0/ServerHandler.py",
+		"/home/yoieh/python/aohf.txt",
+		"/home/yoieh/python/laboration2-1.py",
+		"/home/yoieh/python/laboration4-1.py",
+		"/home/yoieh/python/my_modules.py",
+		"/home/yoieh/python/laboration3-1.py",
+		"/home/yoieh/python/laboration3-2.py",
+		"/home/yoieh/python/laboration3-3.py",
+		"/home/yoieh/python/tic-tac-toe.V2.0/board.py",
+		"/home/yoieh/python/tic-tac-toe.V2.0/player.py",
+		"/home/yoieh/python/tic-tac-toe.V2.0/main_client_test.py",
+		"/home/yoieh/python/tic-tac-toe.V2.0/main_server_test.py",
+		"/home/yoieh/python/tic-tac-toe/board.py",
+		"/home/yoieh/python/tic-tac-toe.V2.0/main2.py",
+		"/home/yoieh/python/server.py",
+		"/home/yoieh/python/tic-tac-toe.v1/player.py",
+		"/home/yoieh/python/tic-tac-toe.v1/game.py",
+		"/home/yoieh/python/tic-tac-toe.v1/cli.py",
+		"/home/yoieh/python/tic-tac-toe.v1/board.py",
+		"/home/yoieh/python/tic-tac-toe.v1/main.py",
+		"/home/yoieh/python/tic-tac-toe.v1/server.py",
+		"/home/yoieh/python/tic-tac-toe/cli.py",
+		"/home/yoieh/python/tic-tac-toe/main.py",
+		"/home/yoieh/python/tic-tac-toe/player.py",
+		"/home/yoieh/python/tic-tac-toe/server.py",
+		"/home/yoieh/python/tic-tac-toe/display.py",
+		"/home/yoieh/python/tic-tac-toe/errorHandler.py",
+		"/home/yoieh/python/tic-tac-toe.py/board.py",
+		"/home/yoieh/python/Tic-Tac-Toe.py",
+		"/home/yoieh/python/tic-tac-toe.py/main.py",
+		"/home/yoieh/python/tic-tac-toe.py",
+		"/home/yoieh/python/laboration2-2.py",
+		"/home/yoieh/.config/sublime-text-3/Packages/GoSublime/USAGE.md",
+		"/home/yoieh/.config/sublime-text-3/Packages/GoSublime/CHANGELOG.md"
+	],
+	"find":
+	{
+		"height": 23.0
+	},
+	"find_in_files":
+	{
+		"height": 157.0,
+		"where_history":
+		[
+			"",
+			"<current file>",
+			"<curent file>",
+			"",
+			"<current file>",
+			"",
+			"<current file>",
+			""
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"hk",
+			"int(option) - 1",
+			"input(",
+			"input",
+			"Board",
+			")\n",
+			"Screengetmaxyx",
+			"board.",
+			"screen.",
+			"board.",
+			"screen.",
+			"Messages.",
+			"messages.",
+			"server.",
+			"server",
+			"start_game",
+			"socket",
+			"lRow",
+			"mRow",
+			"sRow",
+			"fRow",
+			"print",
+			"update",
+			"str",
+			"remote_player",
+			"local_player",
+			"pgame_info",
+			"raw_input",
+			"print",
+			"player(",
+			"print",
+			"ord",
+			"print 'hi'",
+			"hi",
+			"for row in border",
+			"for row in border:",
+			"screen.game()",
+			"game()",
+			"dialog.refresh()",
+			"dialog.clear",
+			"dialog.clear'",
+			"dialog_list",
+			"box4",
+			"box3",
+			"box2",
+			"box1",
+			"menu",
+			"print",
+			"turn",
+			"start.",
+			"board.new",
+			"board",
+			"new_board",
+			"handel_messages",
+			"handel_handel_messages",
+			"messages",
+			"handel_messages",
+			" '",
+			"handel_messages",
+			"updatePlayer",
+			"update_player",
+			"playersInfo",
+			"updatePlayer",
+			"self.updatePlayer",
+			"updatePlayer",
+			"playersInfo",
+			"currentPlayer",
+			"markType",
+			"gameBoard",
+			"gameRun",
+			"ServerHandler()",
+			"board()",
+			"game()",
+			"newBoard",
+			"startGame",
+			"' ",
+			"currentPlayer",
+			"currentMarkerTyp",
+			"player",
+			"clean_char",
+			"clean_str",
+			"illegal_letters",
+			"asdf",
+			"clean_str",
+			"clean_char",
+			"remove_illegal_letters",
+			"dic",
+			"illigal",
+			"caracter",
+			"caracters",
+			"exceptions",
+			"newWord",
+			"wordDic",
+			"sortData",
+			"wordSort",
+			"foun ",
+			"foun",
+			"wordData",
+			"score",
+			"number",
+			"borad",
+			"b[",
+			"'C'",
+			"'B'",
+			"'A'",
+			"append"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+			"hp",
+			"option",
+			"Board.",
+			"Screen.",
+			"Board.",
+			"Screen",
+			"Messages.",
+			"Server.",
+			"Server",
+			"Game",
+			"last_row",
+			"middel_row",
+			"second_row",
+			"first_row",
+			"player",
+			"player1",
+			"Player(",
+			"screen.game(board.display_board)",
+			"menu.refresh()",
+			"menu.clear",
+			"menu_list",
+			"game_bord_box",
+			"remote_player_box",
+			"local_player_box",
+			"options_box",
+			"dialog",
+			"board",
+			"messages",
+			"handel_messages",
+			"players_info",
+			"update_player",
+			"players_info",
+			"current_player",
+			"mark_type",
+			"game_board",
+			"game_run",
+			"Server_Handler()",
+			"Board()",
+			"Game()",
+			"new_board",
+			"start_game",
+			"clean.clean_char",
+			"clean.clean_str",
+			"clean_char",
+			"clean_str",
+			"asdf",
+			"clean_char",
+			"dict",
+			"illegal",
+			"character",
+			"characters",
+			"illigal",
+			"new_word",
+			"word_dic",
+			"sort_data",
+			"word_sort",
+			"wordDicData",
+			"s",
+			"n",
+			"self.gameBoard[",
+			"2",
+			"1",
+			"0"
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 0,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "nat.sh",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 8320,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1860,
+								1860
+							]
+						],
+						"settings":
+						{
+							"incomplete_sync": null,
+							"remote_loading": false,
+							"synced": false,
+							"syntax": "Packages/ShellScript/Shell-Unix-Generic.sublime-syntax",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 377.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "README.md",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 14,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								14,
+								14
+							]
+						],
+						"settings":
+						{
+							"incomplete_sync": null,
+							"remote_loading": false,
+							"synced": false,
+							"syntax": "Packages/Markdown/Markdown.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 23.0
+	},
+	"input":
+	{
+		"height": 49.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"output.sftp":
+	{
+		"height": 0.0
+	},
+	"pinned_build_system": "",
+	"project": "centos7_nat.sublime-project",
+	"replace":
+	{
+		"height": 42.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"pa",
+				"Package Control Messages"
+			]
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 500.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"",
+				"~/Documents/github.com/yoieh/yColor-tools/yColor-tools.sublime-project"
+			]
+		],
+		"width": 380.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": true,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 221.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}
