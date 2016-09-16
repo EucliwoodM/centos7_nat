@@ -3,7 +3,7 @@
 declare -A input
 declare -A backup_iptables
 declare -A backup_ipvsm
-declare -A color
+declare -A yc
 
 input[ACTION]=$1
 input[FLAG]=$2
@@ -22,67 +22,67 @@ backup_ipvsm[BACKUP_FILE]="/backup_${backup[DATE]}.save"
 backup_ipvsm[FILE]="/active.save"
 backup_ipvsm[TEMP_PATH]="/tmp/ipvsm_backup"
 
-# Basic color palet.
-#color[RE]="$(tput setaf 1)"		# Set red text.
-#color[GR]="$(tput setaf 2)"		# Set green text.
-#color[YE]="$(tput setaf 3)"		# Set yellow text.
-#color[DB]="$(tput setaf 4)"		# Set dark blue text.
-#color[PU]="$(tput setaf 5)"		# Set purple text.
-#color[LB]="$(tput setaf 6)"		# Set light blue text.
-#color[WH]="$(tput setaf 7)"		# Set white text.
-#color[B]="$(tput bold)"			# Set bold text.
-#color[U]="$(tput sgr 0 1)"		# Set underline text.
-#color[UB]="${color[U]} ${color[B]}"	# Set underline and bold text.
+# Basic yc palet.
+#yc[RE]="$(tput setaf 1)"		# Set red text.
+#yc[GR]="$(tput setaf 2)"		# Set green text.
+#yc[YE]="$(tput setaf 3)"		# Set yellow text.
+#yc[DB]="$(tput setaf 4)"		# Set dark blue text.
+#yc[PU]="$(tput setaf 5)"		# Set purple text.
+#yc[LB]="$(tput setaf 6)"		# Set light blue text.
+#yc[WH]="$(tput setaf 7)"		# Set white text.
+#yc[B]="$(tput bold)"			# Set bold text.
+#yc[U]="$(tput sgr 0 1)"		# Set underline text.
+#yc[UB]="${yc[U]} ${yc[B]}"	# Set underline and bold text.
 
-# Set bold and color.
-#color[RE_B]="${color[RESET]}${color[B]}${color[RE]}"
-#color[GR_B]="${color[RESET]}${color[B]}${color[GR]}"
-#color[YE_B]="${color[RESET]}${color[B]}${color[YE]}"
-#color[DB_B]="${color[RESET]}${color[B]}${color[DB]}"
-#color[PU_B]="${color[RESET]}${color[B]}${color[PU]}"
-#color[LB_B]="${color[RESET]}${color[B]}${color[LB]}"
-#color[WH_B]="${color[RESET]}${color[B]}${color[WH]}"
+# Set bold and yc.
+#yc[RE_B]="${yc[RESET]}${yc[B]}${yc[RE]}"
+#yc[GR_B]="${yc[RESET]}${yc[B]}${yc[GR]}"
+#yc[YE_B]="${yc[RESET]}${yc[B]}${yc[YE]}"
+#yc[DB_B]="${yc[RESET]}${yc[B]}${yc[DB]}"
+#yc[PU_B]="${yc[RESET]}${yc[B]}${yc[PU]}"
+#yc[LB_B]="${yc[RESET]}${yc[B]}${yc[LB]}"
+#yc[WH_B]="${yc[RESET]}${yc[B]}${yc[WH]}"
 
-# Set underline and color.
-#color[RE_U]="${color[RESET]}${color[U]}${color[RE]}"
-#color[GR_U]="${color[RESET]}${color[U]}${color[GR]}"
-#color[YE_U]="${color[RESET]}${color[U]}${color[YE]}"
-#color[DB_U]="${color[RESET]}${color[U]}${color[DB]}"
-#color[PU_U]="${color[RESET]}${color[U]}${color[PU]}"
-#color[LB_U]="${color[RESET]}${color[U]}${color[LB]}"
-#color[WH_U]="${color[RESET]}${color[U]}${color[WH]}"
+# Set underline and yc.
+#yc[RE_U]="${yc[RESET]}${yc[U]}${yc[RE]}"
+#yc[GR_U]="${yc[RESET]}${yc[U]}${yc[GR]}"
+#yc[YE_U]="${yc[RESET]}${yc[U]}${yc[YE]}"
+#yc[DB_U]="${yc[RESET]}${yc[U]}${yc[DB]}"
+#yc[PU_U]="${yc[RESET]}${yc[U]}${yc[PU]}"
+#yc[LB_U]="${yc[RESET]}${yc[U]}${yc[LB]}"
+#yc[WH_U]="${yc[RESET]}${yc[U]}${yc[WH]}"
 
-# Set underline, bold and color.
-#color[RE_UB]="${color[RESET]}${color[UB]}${color[RE]}"
-#color[GR_UB]="${color[RESET]}${color[UB]}${color[GR]}"
-#color[YE_UB]="${color[RESET]}${color[UB]}${color[YE]}"
-#color[DB_UB]="${color[RESET]}${color[UB]}${color[DB]}"
-#color[PU_UB]="${color[RESET]}${color[UB]}${color[PU]}"
-#color[LB_UB]="${color[RESET]}${color[UB]}${color[LB]}"
-#color[WH_UB]="${color[RESET]}${color[UB]}${color[WH]}"
+# Set underline, bold and yc.
+#yc[RE_UB]="${yc[RESET]}${yc[UB]}${yc[RE]}"
+#yc[GR_UB]="${yc[RESET]}${yc[UB]}${yc[GR]}"
+#yc[YE_UB]="${yc[RESET]}${yc[UB]}${yc[YE]}"
+#yc[DB_UB]="${yc[RESET]}${yc[UB]}${yc[DB]}"
+#yc[PU_UB]="${yc[RESET]}${yc[UB]}${yc[PU]}"
+#yc[LB_UB]="${yc[RESET]}${yc[UB]}${yc[LB]}"
+#yc[WH_UB]="${yc[RESET]}${yc[UB]}${yc[WH]}"
 
-# RESET colors and font.
-#color[RESET]="$(tput sgr0)"
+# RESET ycs and font.
+#yc[RESET]="$(tput sgr0)"
 
 yColor_tools="$( cd "$( dirname "${BASH_SOURCE[0]}" )" && pwd)"
 
-echo ${yColor_tools}"/yColor-tools/test_yColor.sh"
+echo ${yColor_tools}"/yyc-tools/test_yyc.sh"
 
-source ${yColor_tools}"/yColor-tools/test_yColor.sh"
+source ${yColor_tools}"/yyc-tools/test_yyc.sh"
 
 # Check if script is run by root.
 function checkRoot {
 	if [ "$EUID" -ne 0 ]; then
 		printf "%sYou need to run as %sroot. %s\n"\
-			"${color[RE]}"\
-			"${color[RE_B]}"\
-			"${color[RESET]}"
+			"${yc[RE]}"\
+			"${yc[RE_B]}"\
+			"${yc[RESET]}"
 		return 1
 	else
 		printf "%sYou run as %sroot. %s\n"\
-			"${color[GR]}"\
-			"${color[GR_B]}"\
-			"${color[RESET]}"
+			"${yc[GR]}"\
+			"${yc[GR_B]}"\
+			"${yc[RESET]}"
 		return 0
 	fi
 }
@@ -94,18 +94,18 @@ function createDir {
 	mkdir -p ${temp_path}
 	if [ $? -eq 0 ]; then
 		printf "%sCreated backup dir: \n%s%s%s\n"\
-			"${color[GR]}"\
-			"${color[GR_U]}"\
+			"${yc[GR]}"\
+			"${yc[GR_U]}"\
 			"	${temp_path}"\
-			"${color[RESET]}"
+			"${yc[RESET]}"
 		return 0
 	else
 		printf "%sFailed during: \n%smkdir %s%s%s\n"\
-			"${color[RE]}"\
-			"${color[RE_B]}"\
-			"${color[RE_U]}"\
+			"${yc[RE]}"\
+			"${yc[RE_B]}"\
+			"${yc[RE_U]}"\
 			"	${temp_path}"\
-			"${color[RESET]}"
+			"${yc[RESET]}"
 		return 1
 	fi
 }
@@ -118,9 +118,9 @@ function saveFile {
 	rules=$3
 
 	printf "%sSaving %s%s\n"\
-		 "${color[B]}"\
+		 "${yc[B]}"\
 		 "${rules}"\
-		 "${color[RESET]}"
+		 "${yc[RESET]}"
 
 	if [ -d "${temp_path}" ]; then
 
@@ -134,23 +134,23 @@ function saveFile {
 		fi
 
 		printf "%sCreated file: \n%s%s%s\n"\
-			"${color[GR]}"\
-			"${color[GR_U]}"\
+			"${yc[GR]}"\
+			"${yc[GR_U]}"\
 			"	${full_path}"\
-			"${color[RESET]}"
+			"${yc[RESET]}"
 		return 0
 	else
 		printf "%sFailed to find path: \n%s%s%s\n"\
-			"${color[RE]}"\
-			"${color[RE_U]}"\
+			"${yc[RE]}"\
+			"${yc[RE_U]}"\
 			"	${temp_path}"\
-			"${color[RESET]}"
+			"${yc[RESET]}"
 
 		printf "%sFailed create file: \n%s%s%s\n"\
-			"${color[RE]}"\
-			"${color[RE_U]}"\
+			"${yc[RE]}"\
+			"${yc[RE_U]}"\
 			"	${full_path}"\
-			"${color[RESET]}"
+			"${yc[RESET]}"
 		return 1
 	fi
 }
@@ -199,10 +199,10 @@ function backup {
 function listBackups {
 	# TODO list backups
 	printf "%sList %s %s%s\n"\
-		"${color[B]}"\
+		"${yc[B]}"\
 		"${input[ACTION]}"\
 		"${input[FLAG]}"\
-		"${color[RESET]}"
+		"${yc[RESET]}"
 }
 
 function setup {
@@ -248,8 +248,8 @@ function setup {
 
 function start {
 	printf "%sStart NAT%s\n"\
-		"${color[B]}"\
-		"${color[RESET]}"
+		"${yc[B]}"\
+		"${yc[RESET]}"
 
 	# Aktivate forwarding.
 	/bin/echo 1 > /proc/sys/net/ipv4/ip_forward
@@ -264,8 +264,8 @@ function start {
 
 function stop {
 	printf "%sStoping NAT%s\n"\
-		"${color[B]}"\
-		"${color[RESET]}"
+		"${yc[B]}"\
+		"${yc[RESET]}"
 	# Saving rules
 	save
 
@@ -287,18 +287,18 @@ function load {
 	ipvsm="${backup_ipvsm[TEMP_PATH]}${backup_ipvsm[FILE]}"
 
 	printf "%sLoading iptables rules from file: \n	%s%s%s\n"\
-		"${color[YE]}"\
-		"${color[YE_U]}"\
+		"${yc[YE]}"\
+		"${yc[YE_U]}"\
 		"${iptables}"\
-		"${color[RESET]}"
+		"${yc[RESET]}"
 	# restoring iptables rules
 	iptables-restore < "${iptables}"
 
 	printf "%sLoading VSL  rules from file: \n	%s%s%s\n"\
-		"${color[YE]}"\
-		"${color[YE_U]}"\
+		"${yc[YE]}"\
+		"${yc[YE_U]}"\
 		"${ipvsm}"\
-		"${color[RESET]}"
+		"${yc[RESET]}"
 
 	# restoring LVS rules
 	ipvsadm-restore < "${ipvsm}"
