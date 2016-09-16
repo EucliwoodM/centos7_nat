@@ -66,9 +66,9 @@ backup_ipvsm[TEMP_PATH]="/tmp/ipvsm_backup"
 
 yColor_tools="$( cd "$( dirname "${BASH_SOURCE[0]}" )" && pwd)"
 
-echo ${yColor_tools}"/yyc-tools/test_yyc.sh"
+echo ${yColor_tools}"/yColor-tools/test_yColor.sh"
 
-source ${yColor_tools}"/yyc-tools/test_yyc.sh"
+source ${yColor_tools}"/yColor-tools/test_yColor.sh"
 
 # Check if script is run by root.
 function checkRoot {
