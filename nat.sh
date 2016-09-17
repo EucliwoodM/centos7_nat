@@ -23,6 +23,7 @@ backup_ipvsm[FILE]="/active.save"
 backup_ipvsm[TEMP_PATH]="/tmp/ipvsm_backup"
 
 # Import yColor
+yColor_tools="$( cd "$( dirname "${BASH_SOURCE[0]}" )" && pwd)"
 source ${yColor_tools}"/yColor-tools/test_yColor.sh"
 
 # Check if script is run by root.
